@@ -340,7 +340,7 @@
         // API call function
         async function getAiGeneratedPlan(prompt) {
             // Note: Replace with backend proxy or environment variable in production
-            const apiKey = "AIzaSyCF9BsY9yMRvE47pbV8Gz-YywUWdO0Wzww"; // Use environment variable or backend
+            const apiKey = ""; // Use environment variable or backend
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
 
             const payload = {
